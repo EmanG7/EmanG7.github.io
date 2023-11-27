@@ -41,7 +41,8 @@ body {
     border-radius: 25px;
     position: fixed;
     top: 10px;
-    width:98%;
+    left: 10px;
+    right: 10px;
 }
 
 .topnavbar a {
