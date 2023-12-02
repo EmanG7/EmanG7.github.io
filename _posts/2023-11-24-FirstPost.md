@@ -1,8 +1,11 @@
 ---
 layout: blogpost
 title: First Post
+tags: 
+- Jekyll
+- Gem/Ruby
 ---
-# Getting Started
+## Getting Started
 Welcome to my first post!
 
 I’m starting this to document and showing off tools or techniques I discover while researching and practicing! Currently, my interest are Automation and Cloud within the field of Cybersecurity but that doesn’t mean I won’t investigate other things as well and post about them as well. I might randomly adjust my focus to another topic of cybersecurity or computer science.
@@ -12,7 +15,7 @@ I’m also testing out different formats like for example, using images for code
 
 ---
 
-# Troubleshooting from the Start
+## Troubleshooting from the Start
 I won’t lie, I had problems getting this working the way I wanted.
 
 To start it, I got my Github page repo together smoothly, no issues there and I saw Jekyll-Themes within the settings, which is the next thing I wanted to use for this, but I wanted to download, install, and rifle through the files of Jekyll for curiosity’s sake. After finding the official Jekyll website and following their instructions on how to install on my Windows Subsystem for Linux (WSL) Arch, I learned more about Ruby and Gem as I had no experience with them personally. Naturally, having no experience at the beginning led to me two errors or issues after installing Jekyll and default packages that come with Gem.

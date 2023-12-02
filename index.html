@@ -1,14 +1,19 @@
 ---
 layout: default
-title: Home
+title: Home | ETI
 ---
 <div class="banner">
-    <h1>Welcome to Elijah Iverson's Website!</h1>
+    <h1>Estimated Time of Impact</h1>
+    <p>Infosec blog by Elijah Iverson</p>
     <p>The design and structure of this site is still currently under development</p>
-    <p>Yes, it's a bit blank at the moment.</p>
 </div>
 <div class="flex container">
-    <div class="block">
-        <p>Blog notfications are manually done on my LinkedIn.</p>
-    </div>
+    <a href="{{ site.posts[0].url }}" style="text-decoration: none;">
+        <div class="block" style="text-align:center;">
+            <h3>Most Recent Blog Post</h3>
+            <img src="{{ site.posts[0].image }}" alt="Image Related to Recent Post" width="100px" height="100px">
+            <p>{{ site.posts[0].title }}</p>
+            <p>Posted on {{site.posts[0].date | date_to_string}}</p>
+        </div>
+    </a>
 </div>
