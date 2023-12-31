@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: First Post
+image: /assets/images/Background.png
 tags: 
 - Jekyll
 - Gem/Ruby
@@ -29,4 +30,4 @@ export PATH="$PATH:$GEM_HOME/bin"
 
 Second was a “NoMethodError” within the Logger v1.6.0 package as it seems Jekyll v4.3.2 does give this version of Logger everything it needs and prevented Jekyll from building or serving. When installing Gem onto your computer for the first time, all the packages are installed with the latest version, which at the time of this post is 1.6.0 for Logger. After poking around into Logger.rb and Jekyll’s configuration files, I couldn’t find a way to work around it with current versions so I decided to downgrade Jekyll at first but the issue remained so I updated it back to 4.3.2 and downgraded Logger to 1.5.1, which is the default minimum for Gem as you can’t completely uninstall Logger from Gem.
 
-![Cli image showing Logger and Jekyll versions](/images/blog-images/gem_Logger-1-5-1_Jekyll-4-3-2.png)
+![Cli image showing Logger and Jekyll versions](/assets/images/blog-images/gem_Logger-1-5-1_Jekyll-4-3-2.png)

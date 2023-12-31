@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" type="text/css" href="/css/styles.css">
-        <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+        <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
      </head>
      <body>
         {% include topnavbar.html %}
@@ -11,12 +11,16 @@
             <h1>{{ page.title }}</h1>
             <h5 class="date">{{ page.date | date_to_string }} - Written by Elijah Iverson</h5>
         </div>
-        <div class="block container">
-            {{ content }}
+        <div class="blog">
+            <div class="block container content">
+                {{ content }}
+            </div>
         </div>
-        <div class="container">
-            {% include blogfooter.html %}
-        </div> 
-        {% include topofpage.html %}
+        <footer class="container blogfooter">
+            <hr>
+            <p style="margin:0 25px;text-align:center;font-size:16px;">Thank you for reading my blog!</p>
+            <hr>
+        </footer>
+        <a href="#" class="topofpage">&#11161</a>
      </body>
 </html>
