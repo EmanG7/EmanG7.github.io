@@ -83,6 +83,12 @@ body {
     height: 50px;
 }
 
+.linkcert {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
 /* Blog Section */
 
 .blog {
@@ -105,7 +111,9 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+    max-height: 250px;
     margin: auto;
+    border-radius: 5px;
 }
 
 .highlighter-rouge {
@@ -116,6 +124,7 @@ body {
     max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+    border-radius: 5px;
 }
 
 .blogfooter {

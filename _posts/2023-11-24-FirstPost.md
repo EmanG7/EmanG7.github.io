@@ -2,9 +2,6 @@
 layout: blogpost
 title: First Post
 image: /assets/images/Background.png
-tags: 
-- Jekyll
-- Gem/Ruby
 ---
 ## Getting Started
 Welcome to my first post!
