@@ -109,11 +109,16 @@ body {
 
 .content img {
     display: block;
-    max-width: 100%;
+    width: auto;
     height: auto;
+    max-width: 100%;
     max-height: 250px;
-    margin: auto;
+    margin: 5px auto;
     border-radius: 5px;
+    transition: transform .2s;
+    &:active {
+        transform:scale(1.5);
+    }
 }
 
 .highlighter-rouge {
