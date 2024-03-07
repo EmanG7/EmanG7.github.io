@@ -8,7 +8,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
         repo = data[0];
         repoDate = new Date(repo.created_at);
         container.innerHTML = `<a href="${repo.html_url}" style="text-decoration: none;" target="_blank">
-                                <div class="block"  style="text-align:center;">
+                                <div class="block container"  style="text-align:center;">
                                 <h3>Newest Github Repo</h3> 
                                 <img src="/assets/images/GithubLogo.png" width="auto" height="100px">
                                 <p style="text-decoration: underline;">${repo.name}</p>
