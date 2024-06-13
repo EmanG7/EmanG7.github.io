@@ -1,6 +1,0 @@
-#Site settings
-url: EmanG7.github.io 
-permalink: /:title
-
-#Build settings
-markdown: kramdown
